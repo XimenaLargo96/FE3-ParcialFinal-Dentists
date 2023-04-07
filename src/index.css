@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h5 {
+  text-align: center;
+  font-weight: 400;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-right: 1rem;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  margin: 5px;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(136, 136, 136);
+}
+
+.container p{
+  font-weight: 100;
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  height: 40px;
+  margin-top: 2rem;
+}
+button , .favButton {
+  background: #eedd7a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  font-weight: 500;
+  margin: 10px;
+}
+.removeButton{
+  background-color: #f5cdcd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+  height: 35px;
+  font-weight: 500;
+  margin: 10px;
+}
+
+footer>img {
+  width: 200px;
+  margin: 0;
+}
+
+footer>p {
+  margin: 0;
+  padding-top: 0.7rem;
+}
+
+.container{
+  text-align: center;
+  height:100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+input{
+  height: 25px;
+  width: 200px;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  border: 0.5px solid rgb(136, 136, 136);
+  border-radius: 8px;
+}
+
+img .doctor {
+  border-radius: 50%;
+}
+
+.card div {
+  text-align: center;
+}
+
+.card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.card-grid {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  display: table;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+}
+
+td,th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.dark {
+  background-color: hsla(0, 4%, 5%, 0.588);
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.dark nav button{
+  background-color: #887b7bb4;
+}
+
+.dark nav {
+  background-color: #949494;
+}
+
+.dark .card:hover {
+  border: 0.5px solid rgb(206, 217, 142);
+}
+
+.dark .card>a:hover {
+  color: rgb(236, 236, 236);
+}
+
+.dark>nav>ul>li>a {
+  color: #fff;
+}
+
+.dark>nav>ul>li>a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.ligth {
+  background-color: #fff;
+  color: black;
+}
+
+.clear-button{
+  margin-bottom: 20px;
+}
