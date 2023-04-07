@@ -23,7 +23,7 @@ const Card = ({ name, username, id }) => {
     <div className="card">
       <Link to={`/detail/${id}`}>
         <div>
-          <img className="doctor" src="../images/doctor.jpg" alt="doctor" width="100x" height="100px" />
+          <img src="../images/doctor.jpg" alt="doctor" width="100x" height="100px" />
           <h4>{id} - {name}</h4>
           <h5>{username}</h5>
         </div>
