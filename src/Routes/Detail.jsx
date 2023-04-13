@@ -2,13 +2,11 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-
-//Este componente debera ser estilado como "dark" o "light" dependiendo del theme del Context
-
 const Detail = () => {
+  
   const [dentist, setDentist] = useState({})
   const params = useParams();
-  // Consumiendo el parametro dinamico de la URL deberan hacer un fetch a un user en especifico
+
   const getDentistDetail = async () => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/users/${params.id}`);
     const data = await res.json();
@@ -17,7 +15,7 @@ const Detail = () => {
 
   useEffect(() => {
     getDentistDetail();
-  })
+  }, [])
 
   return (
     <div>
