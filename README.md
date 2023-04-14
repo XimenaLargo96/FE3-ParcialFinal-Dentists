@@ -2,7 +2,7 @@
 # Proyecto final FE3 DentistApp Digital House
 
 ## 🌟Acerca del proyecto
-Este proyecto fue realizado como parte de la evaluación final de la materia FrontEnd III de la carrera Certified Tech Developer de Digital house, fue desarrollado utilizando diferentes librerias con la finaliddad de demostrar los conocimientos adquiridos durante todo la cursada.
+Este proyecto fue realizado como parte de la evaluación final de la materia FrontEnd III de la carrera Certified Tech Developer de Digital house, fue desarrollado utilizando diferentes librerias con la finalidad de demostrar los conocimientos adquiridos durante todo la cursada.
 
 ## 🚨Requerimientos
 
