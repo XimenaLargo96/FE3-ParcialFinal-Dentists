@@ -23,7 +23,7 @@ Desde la terminal ejecuta los siguientes pasos:
 
 -------------
 ### Sitio web
-[Dentist App]()
+[Dentist App](dentistapp-digitalhouse.netlify.app)
 
 
 Demo:
