@@ -4,6 +4,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
+  min-height: fit-content;
 }
 
 h1, h2, h5 {
@@ -86,7 +87,6 @@ footer>p {
 
 .container{
   text-align: center;
-  height:100%;
 }
 
 form {
@@ -170,19 +170,15 @@ tr:nth-child(even) {
   background-color: #887b7bb4;
 }
 
-.dark nav {
+.dark nav , .dark .card {
   background-color: #949494;
-}
-
-.dark .card:hover {
-  border: 0.5px solid rgb(206, 217, 142);
 }
 
 .dark .card>a:hover {
   color: rgb(236, 236, 236);
 }
 
-.dark>nav>ul>li>a {
+.dark>nav>ul>li>a  {
   color: #fff;
 }
 
