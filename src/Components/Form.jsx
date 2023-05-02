@@ -40,7 +40,7 @@ const Form = () => {
   }
 
   return (
-    <div>
+    <>
       <form onSubmit={onSubmitForm}>
         <input type="text"
           name='name'
@@ -56,7 +56,7 @@ const Form = () => {
       </form>
       {message && <div>Gracias {values.name}, te contactaremos cuanto antes vía mail</div> }
       {error && <div>Por favor verifique su información nuevamente!</div>}
-    </div>
+    </>
   );
 };
 
