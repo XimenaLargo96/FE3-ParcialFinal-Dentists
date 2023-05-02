@@ -4,7 +4,10 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  min-height: fit-content;
+}
+
+main{
+  min-height: 83.5vh;
 }
 
 h1, h2, h5 {
